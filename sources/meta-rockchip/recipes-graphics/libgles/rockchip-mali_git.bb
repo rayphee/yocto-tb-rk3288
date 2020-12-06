@@ -24,7 +24,7 @@ PROVIDES += "${@bb.utils.contains("DISTRO_FEATURES", "wayland", " virtual/libway
 
 S = "${WORKDIR}/git"
 
-SRC_URI = "git://github.com/rockchip-linux/libmali.git;branch=rockchip;"
+SRC_URI = "git://github.com/rockchip-linux/libmali.git;branch=master;"
 SRCREV_pn-${PN} = "${AUTOREV}"
 
 INSANE_SKIP_${PN} = "already-stripped ldflags dev-so"
