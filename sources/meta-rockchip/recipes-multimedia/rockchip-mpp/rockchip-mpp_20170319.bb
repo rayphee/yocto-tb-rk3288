@@ -3,11 +3,14 @@
 # (see COPYING.GPLv2 for the terms)
 include rockchip-mpp.inc
 
-TAG = "release_20170319"
-SRC_URI = "git://github.com/rockchip-linux/mpp.git;tag=${TAG};nobranch=1"
+# TAG = "release_20171218"
+SRCREV = "develop"
+SRC_URI = "git://github.com/rockchip-linux/mpp.git;branch=develop"
+# SRC_URI = "git://github.com/rockchip-linux/mpp.git;tag=${TAG};nobranch=1"
 
 MPP_VERSION = "1.3.1"
 
-PV = "${MPP_VERSION}+${TAG}"
+# PV = "${MPP_VERSION}+${TAG}"
+PV = "${MPP_VERSION}+"
 
 S = "${WORKDIR}/git"
