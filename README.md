@@ -1,5 +1,7 @@
 # yocto-tinkerboard
 
+Forked from Sat8's repo: https://github.com/sat8/yocto-tinkerboard
+
 Yocto OS sources for Asus Tinker board
 
 # Features #
